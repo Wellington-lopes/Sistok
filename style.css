@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:wght@400;700&family=Roboto+Mono:wght@400;500;700&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw; 
+    margin: 0rem 5rem 0rem 5rem;
+    
+}
+
+nav{
+    height: 6.75rem;
+    width: 100vw;
+    margin: 0.38rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.h1{
+    display: inline-flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-right: 30rem;
+}
+
+ul{
+     width: 28.44rem;
+     height: 1.19rem;
+     display: flex;
+     align-self: center;
+     justify-content: space-between;
+     list-style: none;
+     text-decoration: none;
+     margin-right: 7.69rem;
+ }
+
+li{
+    width: 75px;
+    height: 19px;
+    text-decoration: none;
+ }
+
+a{
+    text-decoration: none;
+}
+
+span{
+    color: #4C5D73;
+    font-size: 16px;
+ }
+
+.btn{
+    height: 6.75rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16rem;
+}
+
+#cadastro{
+    width: 6rem;
+    height: 1.19rem;
+    color: #304F8C;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#enter{
+    width: 9.38rem;
+    height: 3.13rem;
+    color: #304F8C;
+    font-size: 16px;
+    background: transparent;
+    border-radius: 6px;
+    text-align: center;
+    border-color: #304F8C;
+    margin-left: 1.5rem;
+    cursor: pointer;
+    border: 2px solid #304F8C;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    width: 100vw;
+    display: flex;
+  
+    
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.card-right {
+    width: 30%;
+    margin-top: 1.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.btn-blue {
+    width: 13rem;
+    height: 3.1rem;
+    color: white;
+    font-weight: 550;
+    font-size: 1rem;
+    background: #304F8C;
+    border-radius: 6px;
+    text-align: center;
+    border-color: #304F8C;
+    cursor: pointer;
+    border: 2px solid #304F8C;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#para {
+    margin: 2rem 0;
+}
+
+.pc {
+    margin-right: 15rem;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+
+.icones {
+    display: flex;
+}
+
+ .text {
+    margin: 0.5rem;
+}
+
+.servicos {
+    margin-top: 5rem ;
+}
+
+.servicos h4 {
+    color: #4C5D73;
+}
+
+.servicos h1 {
+    width: 60%;
+    margin-top: 1rem;
+}
